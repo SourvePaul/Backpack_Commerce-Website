@@ -1,12 +1,30 @@
+.manu{
+    background-color: #FFFFF4;
+}
 .back_row{
     background-color: #FFFFF4;
-    width: 1110px;
+    
+    height: 550px;
 }
 .back_row h1{
 color: #363958;
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+font-size: 80px;
+text-transform: uppercase;
 }
 .back_row h2{
     color: #76C27E;
+    font-family: 'Roboto', sans-serif;
+font-weight: bold;
+font-size: 80px;
+text-transform: uppercase;
+}
+.back_row p{
+    font-family: Roboto;
+font-weight: normal;
+font-size: 16px;
+color:#3E3E3E;
 }
 .banner-item{
     margin-left: 14px;
@@ -16,3 +34,168 @@ color: #363958;
     color: white;
     font-weight: bold;
 }
+.box1{
+    width: 1110px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.left_side{
+    width: 530px;
+    height: 330px;
+    float: left;
+    
+}
+.service1{
+    width: 300px;
+    height: 100px;
+    border: 2px solid #dcd3d3;
+    border-radius: 14px;
+    margin-left: 70px;
+    margin-top: 35px;
+    box-shadow: 0 4px 8px 0 rgba(56, 54, 54, 0.2), 0 6px 20px 0 rgba(71, 71, 71, 0.19);
+}
+.service1 img{
+    width: 55px;
+    height: 55px;
+    margin-left: 10px;
+    margin-top: 11px;
+    float: left;
+}
+.service1 h3{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 6px;
+    float: left;
+    margin-left: 23px;
+}
+.service1 small{
+    font-size: 12px;
+    float: left;
+    margin-left: 84px;
+    margin-top: -30px;
+    color: dimgray;
+}
+.right_side{
+float: left;
+width: 560px;
+height: 330px;
+}
+.right_side img{
+    width: 428px;
+    height: 225px;
+    margin-top: 75px;
+    margin-left: 60px;
+}
+main{
+    width: 1110px;
+    margin-top: 105px;
+    margin-left: 100px;
+    float: left;
+    height: 1000px;
+}
+.upper{
+    width: 1100px;
+    height: 600px;
+   
+    margin-top: -8px;
+}
+.upper h3{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-left: 30px;
+}
+.card1{
+    width: 310px;
+    height: 425px;
+    border: 2px solid #dcd3d3;
+    border-radius: 14px;
+    float: left;
+    margin-left: 45px;
+}
+.images img{
+    width: 250px;
+    height: 250px;
+    background-color:#F1F1F1;
+    margin-left: 26px;
+    margin-top: 16px;
+    float: left;
+}
+.card1 a{
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+.card1 h3{
+    float: left;
+    margin-left: 24px;
+    margin-top: 4px;
+    font-weight: bold;
+}
+.card1 small{
+    font-size: 12px;
+    float: left;
+    margin-left: 24px;
+    margin-top: 4px;
+    color: dimgray;
+}
+.card1 h4{
+    margin-left: 12px;
+    margin-top: 15px;
+    float: left;
+}
+.lower{
+    width: 1100px;
+    height: 600px;
+   
+    margin-top: -8px;
+}
+.lower h3{
+    margin-top: -60px;
+    margin-bottom: 47px;
+    margin-left: 30px;
+}
+.card2{
+    width: 310px;
+    height: 425px;
+    border: 2px solid #dcd3d3;
+    border-radius: 14px;
+    float: left;
+    margin-left: 45px;
+}
+.image img{
+    width: 250px;
+    height: 250px;
+    background-color:#F1F1F1;
+    margin-left: 26px;
+    margin-top: 16px;
+    float: left;
+}
+.card2 a{
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+.card2 h3{
+    float: left;
+    margin-left: 24px;
+    margin-top: 4px;
+    font-weight: bold;
+}
+.card2 small{
+    font-size: 12px;
+    float: left;
+    margin-left: 24px;
+    margin-top: 4px;
+    color: dimgray;
+}
+.card2 h4{
+    margin-left: 12px;
+    margin-top: 15px;
+    float: left;
+}
+@media screen and (min-width: 800px) {
+    .container {
+      margin: 1em 2em;
+    }
+  }

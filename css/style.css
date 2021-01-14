@@ -1,0 +1,18 @@
+.back_row{
+    background-color: #FFFFF4;
+    width: 1110px;
+}
+.back_row h1{
+color: #363958;
+}
+.back_row h2{
+    color: #76C27E;
+}
+.banner-item{
+    margin-left: 14px;
+}
+.button{
+    background-color: #2A1E59;
+    color: white;
+    font-weight: bold;
+}
